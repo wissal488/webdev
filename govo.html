@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World !</title>
+</head>
+<body>
+<?php
+
+?>
+
+	<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+    	<label for="prenom">Prenom:</label>
+    	<input type="text" id="prenom" name="user_prenom">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="password">PassWord :</label>
+        <input type="password" id="password" name="user_pass">
+    </div>
+    <div>
+        <label for="Date">Date de naissance:</label>
+        <input type="Date" id="date" name="user_dat">
+    </div>
+   
+    <div>
+        <label for="genre">Genre:</label> <br>
+        <input type="radio" id="password" name="user_genre"/>Mal<br>
+         <input type="radio" id="password" name="user_genr"/>Femelle
+    </div>
+    <div>
+        <label for="Language">Language:</label> <br>
+        <input type="checkbox" id="c" name="user_language"/>C<br>
+         <input type="checkbox" id="python" name="user_language"/>Python <br>
+          <input type="checkbox" id="java" name="user_language"/>JAVA <br>
+    </div>
+Pays:
+  <select name="pays">
+<option value="Afghanistan">Afghanistan</option>
+<option value="Maroc">Maroc</option>
+<option value="Egypte">Egypte</option>
+<option value="Algerie">Algérie</option>
+<option value="Allemagne">Allemagne</option>
+<option value="Andorre">Andorre</option>
+<option value="Italie">Italie</option>
+</select><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

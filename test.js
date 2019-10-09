@@ -19,7 +19,6 @@ let d=5;
 let y=9;
 console.log(f(d,y));*/
 
-
 /*function calc(a,b){
 let op=prompt("entrer l'operateur :");
 let res;
@@ -53,3 +52,5 @@ let v2=new vecteur(2,4);
 console.log(v1.mod());
 console.log(v2.mod());
 console.log(v1.egale(v2));
+
+console.log(`Respect `);
